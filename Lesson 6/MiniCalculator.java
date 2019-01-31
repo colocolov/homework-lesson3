@@ -17,23 +17,36 @@ public class MiniCalculator{
 		//ввод второго числа
 		System.out.println("\nEnter second value:");
 		int secondValue = number.nextInt();
-		number.close();
 		
-		//выполнение умножения
-		int slojenie = firstValue + secondValue;
-		int vicitanie = firstValue - secondValue;
-		int umnojenie = firstValue * secondValue;
-		int delenie = firstValue / secondValue;
-		int moduli = firstValue % secondValue;
+		//ввод операции над числами
+		System.out.println("\nEnter operation + - * / %:");
+		String action = number.next();
 		
-		//вывод результата
-		System.out.println("\nYour result is:");
-		System.out.println("\n+ : " + slojenie);
-		System.out.println("- : " + vicitanie);
-		System.out.println("* : " + umnojenie);
-		System.out.println("/ : " + delenie);
-		System.out.println("% : " + moduli);
-		System.out.println("\n Bue!");
+		//
+		switch(action) {
+		   case "+" :
+				int slojenie = firstValue + secondValue;
+				System.out.println("\nYour result is: " + slojenie);
+			  break; 
+		   case "-" :
+				int vicitanie = firstValue - secondValue;
+				System.out.println("\nYour result is: " + vicitanie);
+			  break; 
+			case "*" :
+				int umnojenie = firstValue * secondValue;
+				System.out.println("\nYour result is: " + umnojenie);
+			  break; 
+			case "/" :
+				int delenie = firstValue / secondValue;
+				System.out.println("\nYour result is: " + delenie);
+			  break; 
+			case "%" :
+				int moduli = firstValue % secondValue;
+				System.out.println("\nYour result is: " + moduli);
+			  break; 
+		}
+
+		System.out.println("\n Bye!");
 		
 	}
 }
