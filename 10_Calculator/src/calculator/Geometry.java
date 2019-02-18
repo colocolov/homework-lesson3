@@ -41,10 +41,10 @@ public class Geometry { // класс
         System.out.println("Perimetr: " + perimetr);
     }
     
-    public void calculateTriangleSurface(int aSide, int bSide, int cSide){
-        double pVar = (aSide + bSide + cSide) / 2; //ОШИБКА!!!
+    public void calculateTriangleSurface(int aSide, int bSide, int cSide){ // 6 6 8
+        double pVar = (aSide + bSide + cSide) / 2; //ОШИБКА!!! // 10
         System.out.println(pVar);
-        double surface = Math.sqrt (pVar * (pVar - aSide) * (pVar - bSide) * (pVar - cSide));
+        double surface = Math.sqrt (pVar * (pVar - aSide) * (pVar - bSide) * (pVar - cSide)); // 
         System.out.println("Surface: " + surface);
     }
 }
