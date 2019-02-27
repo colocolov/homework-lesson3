@@ -14,18 +14,17 @@ public class Salesman {
     }
 
     public Salesman(String surname, int year) { //construct with 2 param
-        this.surname = surname;
+        this(surname);
         this.yearOfBirth = year;
     }
 
     public Salesman(String surname, String name, int year) { //construct with 3 param
-        this.surname = surname;
+        this(surname, year);
         this.name = name;
-        this.yearOfBirth = year;
     }
 
     public Salesman(String surname, String name, String street, int numberHouse) { //construct with 4 param
-        this.surname = surname;
+        this(surname);
         this.name = name;
         this.street = street;
         this.numberHouse = numberHouse;

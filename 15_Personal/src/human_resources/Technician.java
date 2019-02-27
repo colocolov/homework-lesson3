@@ -14,21 +14,18 @@ public class Technician {
     }
 
     public Technician(String surname, int year) { //construct with 2 param
-        this.surname = surname;
+        this(surname);
         this.yearOfBirth = year;
     }
 
     public Technician(String surname, String name, int year) { //construct with 3 param
-        this.surname = surname;
+        this(surname, year);
         this.name = name;
-        this.yearOfBirth = year;
     }
 
     public Technician(String surname, String name, int id, int year) { //construct with 4 param
-        this.surname = surname;
-        this.name = name;
+        this(surname, name, year);
         this.idPerson = id;
-        this.yearOfBirth = year;
     }
 
     public void displayName() {

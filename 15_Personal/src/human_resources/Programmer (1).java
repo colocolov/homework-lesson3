@@ -15,20 +15,17 @@ public class Programmer {
     }
 
     public Programmer(String surname, int year) { //construct with 2 parametr
-        this.surname = surname;
+        this(surname);
         this.yearOfBirth = year;
     }
 
     public Programmer(String surname, String name, int year) { //construct with 3 parametr
-        this.surname = surname;
-        this.yearOfBirth = year;
+        this(surname, year);
         this.name = name;
     }
 
     public Programmer(String surname, String name, int year, long id) { //construct with 4 parametr
-        this.surname = surname;
-        this.yearOfBirth = year;
-        this.name = name;
+        this(surname, name, year);
         this.idPerson = id;
     }
 

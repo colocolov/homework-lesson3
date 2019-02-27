@@ -14,20 +14,17 @@ public class Bookkeeper {
     }
 
     public Bookkeeper(String surname, int year) { //construct with 2 param
-        this.surname = surname;
+        this(surname);
         this.yearOfBirth = year;
     }
 
     public Bookkeeper(String surname, String name, int year) { //construct with 3 param
-        this.surname = surname;
+        this(surname, year);
         this.name = name;
-        this.yearOfBirth = year;
     }
 
     public Bookkeeper(String surname, String name, int year, String street) { //construct with 4 param
-        this.surname = surname;
-        this.name = name;
-        this.yearOfBirth = year;
+        this(surname, name, year);
         this.street = street;
     }
 
