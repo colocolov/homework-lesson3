@@ -1,4 +1,4 @@
-package world;
+package world.gadget;
 
 public class Clock {
 

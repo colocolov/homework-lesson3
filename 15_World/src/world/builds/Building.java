@@ -1,4 +1,4 @@
-package world;
+package world.builds;
 
 public class Building {
 

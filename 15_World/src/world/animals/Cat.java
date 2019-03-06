@@ -1,4 +1,4 @@
-package world;
+package world.animals;
 
 public class Cat {
 

@@ -61,7 +61,7 @@ class PersonDemo {
         Programmer person = new Programmer();
         Programmer personWithNameAndSurname = new Programmer("Doe", "John", 29, 2002001012);
         person.show();
-        System.out.println("\n");
+        System.out.print("\n");
         personWithNameAndSurname.show();
         personWithNameAndSurname.displayName();
         personWithNameAndSurname.show2();
