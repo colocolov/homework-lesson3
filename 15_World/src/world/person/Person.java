@@ -15,8 +15,7 @@ public class Person {
     }
 
     public Person(String name, String surname, int age) { // overloaded constructor
-        this.name = name;
-        this.surname = surname;
+        this(name, surname);
         this.age = age;
     }
 

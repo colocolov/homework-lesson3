@@ -16,8 +16,7 @@ public class Motorcycle {
     }
 
     public Motorcycle(String brand, int price, double capacity) {   // overloaded constructor
-        this.brand = brand;
-        this.price = price;
+        this(brand, price);
         this.capacity = capacity;
     }
 

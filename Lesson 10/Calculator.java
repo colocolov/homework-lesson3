@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-
 	public class Calculator{
 	
 		public static void main(String[] args){
 			
 			// 1. User input
-	/*		Scanner keybordScanner = new Scanner(System.in);
+			Scanner keybordScanner = new Scanner(System.in);
 			System.out.println ("Please enter square side length:");
 			int squareSide = keybordScanner.nextInt();
 			// 2. Calculate perimetr
@@ -25,7 +24,7 @@ import java.util.Scanner;
 			int rectPerimetr = (width + length) * 2;
 			int rectSurface = length * width;
 			System.out.println ("Rectange > Surface: " + rectSurface + " / Perimetr: " + rectPerimetr);
-	*/		
+			
 			// 6. 
 			System.out.println("\nPlease enter your value for compate odd or even: ");
 			int oddOrEven = keybordScanner.nextInt();

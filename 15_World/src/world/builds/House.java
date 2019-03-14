@@ -15,8 +15,7 @@ public class House {
     }
 
     public House(String location, int number, int rooms) { // overloaded constructor
-        this.location = location;
-        this.numberHouse = number;
+        this(location, number);
         this.qRoom = rooms;
     }
 

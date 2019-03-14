@@ -15,8 +15,7 @@ public class Application {
         geometry.calculateSquareSurface(squareSide);
         int perimetr = geometry.calculateSquarePerimetr(squareSide);
         System.out.println("Perimetr " + perimetr);
-        // Rectange = --//--
-
+        
         // 2. even or odd
         System.out.println("\nPlease enter your value for compate odd or even: ");
         int number = keybordScanner.nextInt();

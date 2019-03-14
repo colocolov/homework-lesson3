@@ -16,8 +16,7 @@ public class Tree {
     }
 
     public Tree(String type, int height, boolean tree) { // overloaded constructor
-        this.type = type;
-        this.height = height;
+        this(type, height);
         this.isGreen = tree;
     }
 

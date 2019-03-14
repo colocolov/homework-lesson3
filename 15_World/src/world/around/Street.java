@@ -16,8 +16,7 @@ public class Street {
     }
 
     public Street(String name, int index, boolean tree) { // overloaded constructor
-        this.name = name; 
-        this.index = index;
+        this(name, index);
         this.isTree = tree;
     }
 

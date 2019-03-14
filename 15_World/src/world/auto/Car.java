@@ -16,8 +16,7 @@ public class Car {
     }
 
     public Car(String brand, String type, double volume) { // overloaded constructor
-        this.brand = brand;
-        this.typeOfEngine = type;
+        this(type, brand);
         this.volumeOfEngine = volume;
     }
 
