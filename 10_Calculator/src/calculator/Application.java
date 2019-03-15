@@ -46,7 +46,7 @@ public class Application {
         System.out.println("\nPlease enter phombus height: ");
         int phombusHeight = keybordScanner.nextInt();
         geometry.calculateRhombusSurface(phombusSide, phombusHeight);
-        
+       
         // 6. Triangle = perimetr + surface       
         System.out.println("\nPlease enter three sides of triangle: ");
         int aSide = keybordScanner.nextInt();
