@@ -20,28 +20,25 @@ public class Application {
             //ввод операции над числами
             System.out.print("Enter operation + - * / %: ");
             String action = scanner.next();
+            
+            Calculate calcul = new Calculate();
 
             //выбор операции
             switch (action) {
                 case "+":
-                    Calculate add = new Calculate();
-                    add.additionCalc(firstValue, secondValue);
+                    calcul.additionCalc(firstValue, secondValue);
                     break;
                 case "-":
-                    Calculate subtraction = new Calculate();
-                    subtraction.subtractionCalc(firstValue, secondValue);
+                    calcul.subtractionCalc(firstValue, secondValue);
                     break;
                 case "*":
-                    Calculate multiplication = new Calculate();
-                    multiplication.multiplicationCalc(firstValue, secondValue);
+                    calcul.multiplicationCalc(firstValue, secondValue);
                     break;
                 case "/":
-                    Calculate division = new Calculate();
-                    division.divisionCalc(firstValue, secondValue);
+                    calcul.divisionCalc(firstValue, secondValue);
                     break;
                 case "%":
-                    Calculate remainder = new Calculate();
-                    remainder.remainderCalc(firstValue, secondValue);
+                    calcul.remainderCalc(firstValue, secondValue);
                     break;
                 default:
                     System.out.println("You entered the wrong operation.");
