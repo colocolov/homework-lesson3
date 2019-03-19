@@ -17,10 +17,11 @@ import java.util.Scanner;
 			int count2 = 1;
 			int sum = 0;
 			
-			if (valueUser == 0) System.out.print("None");
-			if (valueUser == 1) System.out.print(count1);
-			if (valueUser == 2) System.out.print(count1 + " " + count2);
-			else {
+			if (valueUser == 1){
+				System.out.print(count1);
+			}if (valueUser == 2){
+				System.out.print(count1 + " " + count2);
+			}else{
 				for (int i = 0; i < valueUser - 2; i++) {
 					if (i == 0 ){
 						System.out.print(count1 + " " + count2);

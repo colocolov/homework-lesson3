@@ -18,7 +18,7 @@ import java.util.Scanner;
 			//рассчет суммы всех четных чисел до ввеного числа пользователем
 					
 				for (int valueInc = 1; valueInc <= valueUser; valueInc++)	{
-						intExponent *= valueInc;
+						intExponent = intExponent * valueInc;
 						
 				}
 			
