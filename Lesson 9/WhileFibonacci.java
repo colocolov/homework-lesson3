@@ -18,10 +18,13 @@ import java.util.Scanner;
 			int sum = 0;
 			int count0 = 1;
 			
+			
+			if (valueUser == 0) System.out.print("None");
+			if (valueUser == 1) System.out.print("1");
 			if (valueUser >= 2 ){
                     System.out.print(count1 + " " + count2);
                 }
-			
+				
 			while (count0 <= valueUser - 2){
 				
 				sum = count1 + count2;
